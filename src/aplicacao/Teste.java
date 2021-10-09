@@ -6,8 +6,6 @@ public class Teste {
 
 	public static void main(String[] args) {
 		
-		
-		// criação do novo objeto Locale
 		Locale.setDefault(Locale.US);
 		
 		//Instanciando 4 empregados da classe Empregado
@@ -42,7 +40,7 @@ public class Teste {
 
 		} // Fim da estrutura condicional composta 01;
 		
-		// invocando método do cálculo da média salarial da classe Empregado;
+		// Invocando método do cálculo da média salarial da classe Empregado;
 		float mediaSalarial = empregado1.mediaSalarial(empregado1, empregado2, empregado3, empregado4);
 		
         // Listando salário dos empregados;
@@ -83,7 +81,7 @@ public class Teste {
 			System.out.printf("\nO empregado %s teve um aumento de vinte por cento e seu novo salário é: %.2f%n",
 					empregado4.getNome(), aumento4);
 			
-			//fim
+			//Fim
 
 		}
 

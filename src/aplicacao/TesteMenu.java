@@ -7,19 +7,19 @@ public class TesteMenu {
 
 	public static void main(String[] args) {
 
-		// criação do novo objeto Locale
+		// Criação do novo objeto Locale
 		Locale.setDefault(Locale.US);
 
-		// instanciando novo objeto Scanner para entrada de dados;
+		// Instanciando novo objeto Scanner para entrada de dados;
 		Scanner leitor = new Scanner(System.in);
 
-		// declarando e inciando variável para receber opções do Menu;
+		// Declarando e inciando variável para receber opções do Menu;
 		int numOpcao = 0;
 
-		// instanciando novo empregado da Classe empregado
+		// Instanciando novo empregado da Classe empregado
 		Empregado empregado = new Empregado();
 
-		// estrutura de repetição while (enquanto)
+		// Estrutura de repetição while (enquanto)
 		while (numOpcao != 5) {
 
 			System.out.println("Selecione a opção desejada: \n\n1. Criar empregado \n2. Calcular salário do mensal\n3. "
@@ -34,7 +34,7 @@ public class TesteMenu {
 			switch (numOpcao) {
 
 			case 1:
-				opcao = "Você escolheu a opção: Criar empregado";
+			    opcao = "Você escolheu a opção: Criar empregado";
 
 				System.out.println(opcao);
 
@@ -54,7 +54,7 @@ public class TesteMenu {
 
 				break;
 				
-				//O comando "break", quando executado, encerra a execução da estrutura onde ele se encontra.
+				// O comando "break", quando executado, encerra a execução da estrutura onde ele se encontra.
 
 			case 2:
 				opcao = "Você escolheu a opção: Calcular salario mensal";
@@ -85,7 +85,7 @@ public class TesteMenu {
 				System.out.printf("Seu novo salário é: R$ %.2f%n", empregado.calculaSalarioMensal());
 
 				break;
-
+				
 			case 5:
 				opcao = "Sair";
 				System.out.println("Obrigado por utilizar o sistema!");
@@ -97,14 +97,14 @@ public class TesteMenu {
 				break;
 
 			/*
-			 *  obs: Caso todos os casos sejam testados e nenhum deles corresponda ao valor
+			 *  Obs: Caso todos os casos sejam testados e nenhum deles corresponda ao valor
 			 * da variável de teste,será executado o bloco de código associado à seção
 			 * default (“padrão”) do condicional.
 			 */
 
 			}
 
-		} // fim
+		} // Fecha o loop;
 
 		leitor.close();
 	}
