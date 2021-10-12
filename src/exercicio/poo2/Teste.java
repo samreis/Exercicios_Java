@@ -1,4 +1,4 @@
-package exercicio.poo;
+package exercicio.poo2;
 
 public class Teste {
 

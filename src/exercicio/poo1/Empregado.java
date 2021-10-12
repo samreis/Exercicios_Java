@@ -1,4 +1,4 @@
-package aplicacao;
+package exercicio.poo1;
 
 public class Empregado {
 
