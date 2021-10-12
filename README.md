@@ -54,7 +54,7 @@ e você irá trabalhar com ele, apenas.
 
 ## Exercicio 03
 
-1) Crie uma classe Conta que irá manipular contas de um banco.Siga a especificação:
+1) Crie uma classe Conta que irá manipular contas de um banco. Siga a especificação:
 
 **Atributos:**
 
