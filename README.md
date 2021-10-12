@@ -2,6 +2,7 @@
 
 - [Exercicio 01](#exercicio-01)
 - [Exercicio 02](#exercicio-02)
+- [Exercicio 03](#exercicio-03)
 
 ## Exercicio 01
 
@@ -23,6 +24,7 @@ dos 4 empregados criados. Exiba os dados de todos os empregados.
 
 6) Agora crie uma outra classe chamada TesteMenu. Nessa classe você deve exibir um
 menu com as seguintes opções: 
+
  - Criar o empregado; 
  - Calcular salário do mensal;
  - Alterar horas trabalhadas no mês; 
@@ -50,9 +52,48 @@ e você irá trabalhar com ele, apenas.
 - Na classe Teste apresente os dados da pessoa mais velha. Utilize estruturas condicionais.
 - Dê um aumento de 5% para o peso das pessoas na faixa etária de 24 a 38 anos que estejam abaixo de 50 kg. Exiba os dados de todas as pessoas que tiveram alteração no peso.
 
+## Exercicio 03
 
+1) Crie uma classe Conta que irá manipular contas de um banco. Siga a especificação:
 
+**Atributos:**
 
+- Número: número da conta
+- Nome: nome do titular da conta
+- Tipo: tipo da conta (poupança ou conta corrente)
+- Saldo: o saldo da conta
+
+**Construtores:**
+
+|      Construtor     |      Parâmetros     |     Descrição                                                                                        |
+| ------------------- | ------------------- |------------------------------------------------------------------------------------------------------|
+|          1          |     Nenhum          | Inicializa o saldo com zero                                                                          |            
+|          2          |   Número da conta / Nome do titular  |inicializa o saldo com zero e atribui o número da conta e o nome do titular a  conta |
+                  
+**Métodos:**
+- Implemente os métodos de acesso para os atributos
+- Além dos métodos de acesso, implemente os seguintes métodos abaixo:
+
+|      Método         |      Parâmetros      |     Descrição                                                                                        |
+| ------------------- | ---------------------|------------------------------------------------------------------------------------------------------|
+|      Depositar      |Valor a ser depositado| Adiciona no saldo o valor passado                                                                    |            
+|        Sacar        |Valor a ser sacado    |Retira do saldo o valor passado                                                                       |
+
+2)Crie uma classe principal chamada Banco que vai manipular as contas. Este programa deve realizar tarefas:
+
+> Criar uma conta simples de número 123 para o Zé Carioca
+
+> Apresente o seguinte menu para o dono da conta Zé Carioca:
+
+- Realizar depósito
+- Realizar saque
+- Mostrar saldo
+- Mostrar informações do titular
+- Sair
+
+Além de apresentar o menu, cada opção de menu escolhida deve ser implementada
+
+Exemplo: Caso o usuário escolha a opção de realizar depósito, o programa deve perguntar o valor que ele quer depositar e atualizar o saldo da conta do Zé Carioca.
 
 
 
