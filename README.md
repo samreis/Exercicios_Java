@@ -98,13 +98,13 @@ Exemplo: Caso o usuário escolha a opção de realizar depósito, o programa dev
 
 ## Exercicio 04
 
-Em um banco, para se cadastrar uma conta bancária, é necessário informar:
+1) Em um banco, para se cadastrar uma conta bancária, é necessário informar:
 
 - número da conta
 - nome do titular da conta
 - valor de depósito incial que o titular depositou ao abrir a conta
 
-Este valor de depósito incial, entretanto, é opcional, ou seja: se o titular não tiver dinheiro a depositar no momento de abrir sua conta, o depósito inicial não será feito e o saldo incial da conta será, naturalmente, zero. 
+Este valor de depósito incial, entretanto, é opcional, ou seja: se o titular não tiver dinheiro a depositar no momento de abrir sua conta, o depósito inicial não será feito e o saldo inicial da conta será, naturalmente, zero. 
 
 ⚠️ Importante: uma vez que uma conta bancária foi aberta, o número da conta nunca poderá ser alterado. Já o nome do titular pode ser alterado (pois uma pessoa pode mudar de nome por ocasião de casamento, por exemplo).
 
