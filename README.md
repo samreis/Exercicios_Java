@@ -3,6 +3,7 @@
 - [Exercicio 01](#exercicio-01)
 - [Exercicio 02](#exercicio-02)
 - [Exercicio 03](#exercicio-03)
+- [Exercicio 04](#exercicio-04)
 
 ## Exercicio 01
 
@@ -35,7 +36,7 @@ O menu deve ser (re)exibido até que o usuário não deseje mais utilizar o sist
 Quando o uso do sistema for encerrado pelo usuário, exibir uma mensagem do tipo
 "Obrigado por utilizar o sistema".
 
-Observação: nessa classe TesteMenu deve ser possível criar apenas um empregado
+⚠️ Observação: nessa classe TesteMenu deve ser possível criar apenas um empregado
 e você irá trabalhar com ele, apenas.
 
 
@@ -79,7 +80,7 @@ e você irá trabalhar com ele, apenas.
 |      Depositar      |Valor a ser depositado| Adiciona no saldo o valor passado                                                                    |            
 |        Sacar        |Valor a ser sacado    |Retira do saldo o valor passado                                                                       |
 
-2)Crie uma classe principal chamada Banco que vai manipular as contas. Este programa deve realizar tarefas:
+2) Crie uma classe principal chamada Banco que vai manipular as contas. Este programa deve realizar tarefas:
 
 > Criar uma conta simples de número 123 para o Zé Carioca
 
@@ -95,7 +96,21 @@ Além de apresentar o menu, cada opção de menu escolhida deve ser implementada
 
 Exemplo: Caso o usuário escolha a opção de realizar depósito, o programa deve perguntar o valor que ele quer depositar e atualizar o saldo da conta do Zé Carioca.
 
+## Exercicio 04
 
+Em um banco, para se cadastrar uma conta bancária, é necessário informar:
+
+- número da conta
+- nome do titular da conta
+- valor de depósito incial que o titular depositou ao abrir a conta
+
+Este valor de depósito incial, entretanto, é opcional, ou seja: se o titular não tiver dinheiro a depositar no momento de abrir sua conta, o depósito inicial não será feito e o saldo incial da conta será, naturalmente, zero. 
+
+⚠️ Importante: uma vez que uma conta bancária foi aberta, o número da conta nunca poderá ser alterado. Já o nome do titular pode ser alterado (pois uma pessoa pode mudar de nome por ocasião de casamento, por exemplo).
+
+Por fim, o saldo da conta não pode ser alterado livremente. É preciso haver um mecanismo para proteger isso. O saldo só aumenta por meio de depósitos, e só diminui por meio de saques. Para cada saque realizado, o banco cobra uma taxa de R$ 5,00. Nota: a conta pode ficar com saldo negativo se o saldo não for suficiente para realizar o saque e/ou pagar a taxa.
+
+Você deve fazer um programa que realize o cadastro de uma conta, dando opção para que seja ou não informado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque, sempre mostrando os dados da conta após cada operação. 
 
 
 
