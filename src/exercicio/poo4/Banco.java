@@ -18,7 +18,7 @@ public class Banco {
 		System.out.println("Entre com o nome do titular: ");
 		leitor.nextLine();
 		String titular = leitor.nextLine();
-		System.out.println("Deseja realizar um depósito iniscial [s/n]?");
+		System.out.println("Deseja realizar um depósito inicial [s/n]?");
 		char resposta = leitor.next().charAt(0);
 		
 		if(resposta == 's') {
