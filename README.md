@@ -4,6 +4,7 @@
 - [Exercicio 02](#exercicio-02)
 - [Exercicio 03](#exercicio-03)
 - [Exercicio 04](#exercicio-04)
+- [Exercicio 05](#exercicio-05)
 
 ## Exercicio 01
 
@@ -111,6 +112,20 @@ Este valor de depósito incial, entretanto, é opcional, ou seja: se o titular n
 Por fim, o saldo da conta não pode ser alterado livremente. É preciso haver um mecanismo para proteger isso. O saldo só aumenta por meio de depósitos, e só diminui por meio de saques. Para cada saque realizado, o banco cobra uma taxa de R$ 5,00. Nota: a conta pode ficar com saldo negativo se o saldo não for suficiente para realizar o saque e/ou pagar a taxa.
 
 Você deve fazer um programa que realize o cadastro de uma conta, dando opção para que seja ou não informado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque, sempre mostrando os dados da conta após cada operação. 
+
+## Exercicio 05
+
+1. Crie uma classe Agenda que possa armazenar 10 pessoas e que seja
+capaz de realizar as seguintes operações:
+
+- void armazenaPessoa(String nome, int idade, float altura);
+- void removePessoa(String nome);
+- int buscaPessoa(String nome);
+- informa em que posição da agenda está a pessoa;
+- void imprimeAgenda();
+- imprime os dados de todas as pessoas da agenda;
+- void imprimePessoa(int index);
+- imprime os dados da pessoa que está na posição “i” da agenda.
 
 
 
