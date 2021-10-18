@@ -5,6 +5,7 @@
 - [Exercicio 03](#exercicio-03)
 - [Exercicio 04](#exercicio-04)
 - [Exercicio 05](#exercicio-05)
+- [Exercicio 06](#exercicio-06)
 
 ## Exercicio 01
 
@@ -115,6 +116,8 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
 
 ## Exercicio 05
 
+
+
 1. Crie uma classe Agenda que possa armazenar 10 pessoas e que seja
 capaz de realizar as seguintes operações:
 
@@ -127,6 +130,23 @@ capaz de realizar as seguintes operações:
 - void imprimePessoa(int index);
 - imprime os dados da pessoa que está na posição “i” da agenda.
 
+⚠️ (Exercicio realizado utilizando vetores)
+
+## Exercicio 06
+
+1) A dona de um pensionato possui dez quartos para alugar para estudantes,
+sendo esses quartos identificados pelos números 0 a 9.
+
+Fazer um programa que inicie com todos os dez quartos vazios, e depois
+leia uma quantidade N representando o número de estudantes que vão
+alugar quartos (N pode ser de 1 a 10). Em seguida, registre o aluguel dos
+N estudantes. Para cada registro de aluguel, informar o nome e email do
+estudante, bem como qual dos quartos ele escolheu (de 0 a 9). Suponha
+que seja escolhido um quarto vago. Ao final, seu programa deve imprimir
+um relatório de todas ocupações do pensionato, por ordem de quarto,
+conforme exemplo.
+
+⚠️ (Exercicio realizado utilizando vetores)
 
 
 
