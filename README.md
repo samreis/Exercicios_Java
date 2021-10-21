@@ -6,6 +6,7 @@
 - [Exercicio 04](#exercicio-04)
 - [Exercicio 05](#exercicio-05)
 - [Exercicio 06](#exercicio-06)
+- [Exercicio 07](#exercicio-07)
 
 ## Exercicio 01
 
@@ -149,4 +150,37 @@ conforme exemplo.
 ⚠️ (Exercicio realizado utilizando vetores)
 
 
+## Exercicio 07
 
+A aplicação proposta terá uma classe Cerveja que tem os seguintes atributos:
+````java
+// Atributos
+- String nome;
+- enum Tipo; // Criar um arquivo .java do tipo enum com as seguintes constantes: Pilsen, Lager, Pale Ale, Bock, Weissbier
+- Float preco;
+````
+Também teremos a classe Cervejaria que tem os seguintes atributos e métodos:
+````java
+// Atributos
+- List<Cerveja> cerveja;
+- Map<Cerveja, Integer> estoque;
+````
+````java
+// Métodos
+- void compraCerveja(cerveja, quantidade)
+- void listaCervejasCompradas() // Lista o nome, tipo e preco de cada cerveja comprada e sua quantidade
+- void totalizaValorCervejasCompradas() // Mostra o valor total gasto somando todas as cervejas compradas
+````
+#### Regras
+
+1. Os atributos da classe Cerveja só devem ser modificados através do construtor e
+só pode ter métodos acessores.
+
+#### Aplicação
+
+Será criada a classe Aplicacao que conterá o seguinte menu:
+
+1. Comprar cerveja
+2. Listar cervejas compradas
+3. Valor total gasto em reais das cervejas compradas
+4. Encerrar aplicação
