@@ -7,6 +7,7 @@
 - [Exercicio 05](#exercicio-05)
 - [Exercicio 06](#exercicio-06)
 - [Exercicio 07](#exercicio-07)
+- [Exercicio 08](#exercicio-08)
 
 ## Exercicio 01
 
@@ -184,3 +185,48 @@ Será criada a classe Aplicacao que conterá o seguinte menu:
 2. Listar cervejas compradas
 3. Valor total gasto em reais das cervejas compradas
 4. Encerrar aplicação
+
+## Exercicio 08
+
+A aplicação proposta terá uma classe Serie que tem os seguintes atributos:
+````java
+// Atributos
+- String nome; // nome da série
+- String descrição; // descrição resumida da série
+- int qtdTemporada; // quantidade de temporadas
+- int qtdEpisodiosTemporada; // quantidade de episódios por temporada
+````
+````java
+// Métodos
+- void exibeDados() // exibe todos os valores de cada atributo da classe Serie
+````
+Também teremos a classe ServicoStreaming que tem os seguintes atributos e métodos:
+````java
+// Atributos
+- String nome; // nome do serviço de streaming
+- float valorMensal; // valor mensal pago ao serviço de streaming
+- List<Serie> series; // séries que o serviço de streaming tem em seu catálogo
+````
+````java
+// Métodos
+- void adicionaUnicoServicoStreaming(String nome, float valorMensal) // adiciona único serviço de streaming
+- void adicionaSerie(Serie serie) // adiciona uma série ao serviço de streaming
+- void removeSerie(Serie serie) // remove uma série do serviço de streaming pelo nome
+- void exibeSeriesCatalogo() // exibe todas as séries disponíveis no catálogo juntamente com todas as informações de cada série e mostra qual nome do serviço de streaming vinculado
+- void exibeDados() // exibe os valores dos atributos nome e valorMensal do serviço de streaming adicionado
+````
+#### Regras
+
+1. Os atributos da classe Serie só devem ser modificados através do construtor e
+   só pode ter métodos acessores para seus atributos.
+
+#### Aplicação
+
+Será criada a classe Aplicacao que conterá o seguinte menu:
+
+1. Adicionar único serviço de streaming
+2. Adicionar série
+3. Remover série pelo nome
+4. Exibir séries do catálogo
+5. Exibir dados do serviço de streaming
+6. Encerrar aplicação
