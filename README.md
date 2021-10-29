@@ -8,6 +8,7 @@
 - [Exercicio 06](#exercicio-06)
 - [Exercicio 07](#exercicio-07)
 - [Exercicio 08](#exercicio-08)
+- [Exercicio 09](#exercicio-09)
 
 ## Exercicio 01
 
@@ -230,3 +231,40 @@ Será criada a classe Aplicacao que conterá o seguinte menu:
 4. Exibir séries do catálogo
 5. Exibir dados do serviço de streaming
 6. Encerrar aplicação
+
+## Exercicio 09
+
+A aplicação proposta terá uma classe Cerveja que tem os seguintes atributos:
+````java
+// Atributos
+- String marca;
+
+- enum Tipo; // Criar um arquivo .java do tipo enum com as seguintes constantes: Pilsen, Lager, Pale Ale, Bock, Weissbier e conter um atributo chamado descrição
+- Float preco;
+````
+Também teremos a classe Cervejaria que tem os seguintes atributos e métodos:
+````java
+// Atributos
+- List<Cerveja> cerveja;
+- Map<Cerveja, Integer> estoque;
+````
+````java
+// Métodos
+- void vendeCerveja(cerveja, quantidade)
+- void listaCervejasVendidas() // Lista o nome, tipo e preco de cada cerveja vendida e sua quantidade
+- void totalizaValorCervejasVendidas() // Mostra o valor total obtido somando todas as cervejas vendidas
+````
+#### Regras
+
+1. Os atributos da classe Cerveja só devem ser modificados através do construtor e
+só pode ter métodos acessores.
+
+#### Aplicação
+
+Será criada a classe Aplicacao que conterá o seguinte menu:
+
+1. Vender cerveja
+2. Listar cervejas vendidas
+3. Valor total obtido em reais das cervejas vendidas
+4. Encerrar aplicação
+
