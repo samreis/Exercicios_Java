@@ -1,27 +1,85 @@
 package exercicio.poo5;
+
+import java.util.Locale;
+import java.util.Scanner;
+
 public class Aplicacao {
 
     public static void main(String[] args) {
 
+        Locale.setDefault(Locale.US);
+
+        String menu = "\n1. Cadastrar pessoa na agenda"
+                + "\n2. Remover pessoa da agenda"
+                + "\n3. Buscar pessoa na agenda"
+                + "\n4. Imprime os dados de todas as pessoas da agenda"
+                + "\n5. Imprime os dados da pessoa da agenda, de acordo com a posição informada"
+                + "\n6. Sair";
+
+        String digiteOpcao = "\nDigite o numero da opção desejada:";
+        int opcao = 0;
+
         Agenda agenda = new Agenda();
 
-        agenda.armazenaPessoa("Maria", 18, 1.65f);
-        agenda.armazenaPessoa("Jonas", 19, 1.66f);
-        agenda.armazenaPessoa("Sebastião", 20, 1.67f);
-        agenda.armazenaPessoa("José", 21, 1.68f);
-        agenda.armazenaPessoa("João", 22, 1.69f);
-        agenda.armazenaPessoa("Bia", 23, 1.70f);
-        agenda.armazenaPessoa("Joaquina", 24, 1.71f);
-        agenda.armazenaPessoa("Silveira", 25, 1.72f);
-        agenda.armazenaPessoa("Joana", 26, 1.73f);
-        agenda.armazenaPessoa("Tamara", 27, 1.74f);
+        do {
+            System.out.println(menu);
+            Scanner ler = new Scanner(System.in);
+            try {
+                System.out.println(digiteOpcao);
+                opcao = ler.nextInt();
+                Scanner lerDados = new Scanner(System.in);
+                switch (opcao) {
+                    case 1: { // Cadastrar pessoa na agenda
+                        if (agenda.getIndice() < 10) {
+                            System.out.println("Digite o nome");
+                            String nome = lerDados.next();
 
-        agenda.removePessoa("Maria");
+                            System.out.println("Digite a idade");
+                            int idade = lerDados.nextInt();
 
-        agenda.buscaPessoa("Maria");
+                            System.out.println("Digite a altura");
+                            float altura = lerDados.nextFloat();
 
-        agenda.imprimeAgenda();
+                            agenda.armazenaPessoa(nome, idade, altura);
+                        } else {
+                            System.out.println("A agenda atingiu a quantidade limite de 10 pessoas armazenadas");
+                        }
+                        break;
+                    }
+                    case 2: { // Remove a pessoa da agenda pelo nome
+                        System.out.println("Digite o nome");
+                        String nome = lerDados.next();
 
-        agenda.imprimePessoa(9);
+                        agenda.removePessoa(agenda.getPessoas(), nome);
+                        break;
+                    }
+                    case 3: { // Busca a pessoa na agenda pelo nome e informa em que posição da agenda ela está
+                        System.out.println("Digite o nome");
+                        String nome = lerDados.next();
+
+                        agenda.buscaPessoa(nome);
+                        break;
+                    }
+                    case 4: { // Imprime os dados de todas as pessoas da agenda
+                        agenda.imprimeAgenda();
+                        break;
+                    }
+                    case 5: { // Imprime os dados da pessoa da agenda através da posição informada
+                        System.out.println("Digite o numero da posição");
+                        int posicao = lerDados.nextInt();
+
+                        agenda.imprimePessoa(posicao);
+                        break;
+                    }
+                    default: {
+                        System.out.println("Opção inválida.");
+                        break;
+                    }
+                }
+            } catch (Exception e) {
+               System.out.println("Digite um número inteiro!");
+            }
+        } while (opcao != 6);
+        System.out.println("Obrigado por utilizar o sistema!");
     }
 }
