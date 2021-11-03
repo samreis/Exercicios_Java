@@ -9,6 +9,7 @@
 - [Exercicio 07](#exercicio-07)
 - [Exercicio 08](#exercicio-08)
 - [Exercicio 09](#exercicio-09)
+- [Exercicio 10](#exercicio-10)
 
 ## Exercicio 01
 
@@ -267,4 +268,31 @@ Será criada a classe Aplicacao que conterá o seguinte menu:
 2. Listar cervejas vendidas
 3. Valor total obtido em reais das cervejas vendidas
 4. Encerrar aplicação
+
+## Exercicio 10
+
+Implemente todo o código necessário para a criação das classes abaixo:
+
+![img](https://res.cloudinary.com/practicaldev/image/fetch/s--wQrfviWE--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y2w5ukxw5s8isu91qxhr.png)
+
+Criar uma classe Veiculo, com os atributos placa e ano.
+Vamos criar o construtor padrão e o vazio, getters/setters e a função exibir dados,
+que vai apresentar um texto com os dados do veículo.
+
+Criar a classe Onibus que estende Veiculo e terá o atributo assentos,
+vamos criar o construtor vazio, construtor com super classe passando os
+argumentos String placa e int ano,
+getters/setters e o método dados para exibir os dados do Caminhão
+(sobreescrita do método).
+
+Criar a classe Caminhão que estende Veiculo e terá o atributo eixos,
+vamos criar o construtor vazio, construtor com super classe passando os
+argumentos String placa e int ano,
+getters/setters e o método dados para exibir os dados do Caminhão
+(sobreescrita do método).
+
+Criar uma classe Teste para testarmos as classes que criamos.
+Vamos criar um array de veículos, que armazenará todos os nossos objetos Veículos,
+Caminhões e Onibus. E, por fim, vamos criar três laços de repetição para exibirmos
+os dados dos objetos que criamos.
 
