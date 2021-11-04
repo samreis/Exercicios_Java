@@ -10,6 +10,7 @@
 - [Exercicio 08](#exercicio-08)
 - [Exercicio 09](#exercicio-09)
 - [Exercicio 10](#exercicio-10)
+- [Exercicio 11](#exercicio-11)
 
 ## Exercicio 01
 
@@ -295,4 +296,18 @@ Criar uma classe Teste para testarmos as classes que criamos.
 Vamos criar um array de veículos, que armazenará todos os nossos objetos Veículos,
 Caminhões e Onibus. E, por fim, vamos criar três laços de repetição para exibirmos
 os dados dos objetos que criamos.
+
+## Exercicio 11
+
+1- Crie uma hierarquia de classes conforme abaixo com os seguintes atributos e comportamentos (observe a tabela), utilize os seus conhecimentos e distribua as características de forma que tudo o que for comum a todos os animais fique na classe Animal:
+
+![image](https://user-images.githubusercontent.com/89954378/140250313-e0380112-ad8f-4f2d-a791-cd3a1603860a.png)
+
+2- Implemente um programa que crie os 3 tipos de animais definidos no exercício anterior e invoque o método que emite o som de cada um de forma polimórfica, isto é, independente do tipo de animal.
+
+3- Implemente uma classe Veterinario que contenha um método examinar() cujo parâmetro de entrada é um Animal, quando o animal for examinado ele deve emitir um som, passe os 3 animais com parâmetro.
+
+4- Crie uma classe Zoologico, com 10 jaulas (utilize um array) coloque em cada jaula um animal diferente, percorra cada jaula e emita o som e, se o tipo de animal possuir o comportamento, faça-o correr.
+
+
 
