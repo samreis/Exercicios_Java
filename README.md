@@ -12,7 +12,7 @@
 - [Exercicio 10](#exercicio-10)
 - [Exercicio 11](#exercicio-11)
 - [Exercicio 12](#exercicio-12)
-- [Exercicio 12](#exercicio-13)
+- [Exercicio 13](#exercicio-13)
 
 ## Exercicio 01
 
