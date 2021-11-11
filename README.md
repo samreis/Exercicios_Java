@@ -14,7 +14,7 @@
 - [Exercicio 12](#exercicio-12)
 - [Exercicio 13](#exercicio-13)
 
-## Exercicio 01
+## Exercicio 01 - Cálculo de Salário
 
 1) Escreva um modelo (classe) Empregado que represente um empregado de uma
 empresa qualquer. Considere que os atributos nome, horasTrabalhadasNoMês e
@@ -49,7 +49,7 @@ Quando o uso do sistema for encerrado pelo usuário, exibir uma mensagem do tipo
 e você irá trabalhar com ele, apenas.
 
 
-## Exercicio 02
+## Exercicio 02 - Aplicação Simples 
 
 1) Crie uma classe para representar uma pessoa com os atributos: nome, cpf, idade, peso e altura. Faça:
 
@@ -62,7 +62,7 @@ e você irá trabalhar com ele, apenas.
 - Na classe Teste apresente os dados da pessoa mais velha. Utilize estruturas condicionais.
 - Dê um aumento de 5% para o peso das pessoas na faixa etária de 24 a 38 anos que estejam abaixo de 50 kg. Exiba os dados de todas as pessoas que tiveram alteração no peso.
 
-## Exercicio 03
+## Exercicio 03 - Conta bancária
 
 1) Crie uma classe Conta que irá manipular contas de um banco. Siga a especificação:
 
@@ -105,7 +105,7 @@ Além de apresentar o menu, cada opção de menu escolhida deve ser implementada
 
 Exemplo: Caso o usuário escolha a opção de realizar depósito, o programa deve perguntar o valor que ele quer depositar e atualizar o saldo da conta do Zé Carioca.
 
-## Exercicio 04
+## Exercicio 04 - Conta bancária II 
 
 1) Em um banco, para se cadastrar uma conta bancária, é necessário informar:
 
@@ -121,9 +121,7 @@ Por fim, o saldo da conta não pode ser alterado livremente. É preciso haver um
 
 Você deve fazer um programa que realize o cadastro de uma conta, dando opção para que seja ou não informado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque, sempre mostrando os dados da conta após cada operação. 
 
-## Exercicio 05
-
-
+## Exercicio 05 - Agenda
 
 1. Crie uma classe Agenda que possa armazenar 10 pessoas e que seja
 capaz de realizar as seguintes operações:
@@ -139,7 +137,7 @@ capaz de realizar as seguintes operações:
 
 ⚠️ (Exercicio realizado utilizando vetores)
 
-## Exercicio 06
+## Exercicio 06 - Aluguel de Quartos
 
 1) A dona de um pensionato possui dez quartos para alugar para estudantes,
 sendo esses quartos identificados pelos números 0 a 9.
@@ -155,8 +153,7 @@ conforme exemplo.
 
 ⚠️ (Exercicio realizado utilizando vetores)
 
-
-## Exercicio 07
+## Exercicio 07 - Cervejaria
 
 A aplicação proposta terá uma classe Cerveja que tem os seguintes atributos:
 ````java
@@ -191,7 +188,7 @@ Será criada a classe Aplicacao que conterá o seguinte menu:
 3. Valor total gasto em reais das cervejas compradas
 4. Encerrar aplicação
 
-## Exercicio 08
+## Exercicio 08 - Serviço de Streaming
 
 A aplicação proposta terá uma classe Serie que tem os seguintes atributos:
 ````java
@@ -236,7 +233,7 @@ Será criada a classe Aplicacao que conterá o seguinte menu:
 5. Exibir dados do serviço de streaming
 6. Encerrar aplicação
 
-## Exercicio 09
+## Exercicio 09 - Cervejaria II
 
 A aplicação proposta terá uma classe Cerveja que tem os seguintes atributos:
 ````java
@@ -272,7 +269,7 @@ Será criada a classe Aplicacao que conterá o seguinte menu:
 3. Valor total obtido em reais das cervejas vendidas
 4. Encerrar aplicação
 
-## Exercicio 10
+## Exercicio 10 - Herança Veículo
 
 Implemente todo o código necessário para a criação das classes abaixo:
 
@@ -299,7 +296,7 @@ Vamos criar um array de veículos, que armazenará todos os nossos objetos Veíc
 Caminhões e Onibus. E, por fim, vamos criar três laços de repetição para exibirmos
 os dados dos objetos que criamos.
 
-## Exercicio 11
+## Exercicio 11 -  Polimorfismo no Zoológico
 
 1- Crie uma hierarquia de classes conforme abaixo com os seguintes atributos e comportamentos (observe a tabela), utilize os seus conhecimentos e distribua as características de forma que tudo o que for comum a todos os animais fique na classe Animal:
 
@@ -312,7 +309,7 @@ os dados dos objetos que criamos.
 4- Crie uma classe Zoologico, com 10 jaulas (utilize um array) coloque em cada jaula um animal diferente, percorra cada jaula e emita o som e, se o tipo de animal possuir o comportamento, faça-o correr.
 
 
-## Exercicio 12
+## Exercicio 12 - Posto de Combustível
 
 A aplicação proposta terá uma classe Combustivel que tem os seguintes atributos:
 ````java
@@ -378,7 +375,7 @@ Será criada a classe AppPosto que conterá o seguinte menu:
 3. Mostrar litros de combustível restante do posto
 4. Encerrar aplicação
 
-## Exercicio 13
+## Exercicio 13 - Cadastros na Loja
 
 Criar a classe Roupa que tem os seguintes atributos:
 ````java
