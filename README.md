@@ -430,7 +430,7 @@ Será criada a classe AppLoja que executa a aplicação e que tem o seguinte men
 Dado que um cliente deseja realizar uma recarga de celular. Implemente uma função que permita que o cliente realize uma recarga em sua linha onde o débito ocorrerá de sua conta.
 
 
-Classes cliente
+Classe cliente
 -----------------------------------------
 Atribultos 
 
