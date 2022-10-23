@@ -13,7 +13,6 @@
 - [Exercicio 11](#exercicio-11)
 - [Exercicio 12](#exercicio-12)
 - [Exercicio 13](#exercicio-13)
-- [Exercicio 14](#exercicio-14)
 
 ## Exercicio 01 - Cálculo de Salário
 
