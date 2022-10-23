@@ -13,7 +13,6 @@
 - [Exercicio 11](#exercicio-11)
 - [Exercicio 12](#exercicio-12)
 - [Exercicio 13](#exercicio-13)
-- [Exercicio 14](#exercicio-14)
 
 ## Exercicio 01 - Cálculo de Salário
 
@@ -376,57 +375,8 @@ Será criada a classe AppPosto que conterá o seguinte menu:
 3. Mostrar litros de combustível restante do posto
 4. Encerrar aplicação
 
-## Exercicio 13 - Cadastros na Loja
 
-Criar a classe Roupa que tem os seguintes atributos:
-````java
-private String descricao;
-private Float tamanho;
-private Float preco;
-````
-Criar a classe Cliente que tem os seguintes atributos:
-````java
-private String nome;
-private String email;
-private String endereco;
-````
-Criar a interface Loja com os seguintes métodos:
-````java
-void cadastrarRoupa(List<Roupa> roupas, Loja loja);
-void cadastrarCliente(List<Cliente> clientes, Loja loja);
-void escreverCadastradosNoArquivo(String nomeArquivo) throws IOException;
-````
-Criar a classe LojaImpl que implementa a interface Loja e contem os sequintes atributos e métodos:
-````java
-// Atributos
-private String nome;
-private String telefone;
-private String endereco;
-private String email;
-private Map<Loja, List<Cliente>> clientes = new HashMap<>();
-private Map<Loja, List<Roupa>> roupas = new HashMap<>();
-
-// Métodos
-public void cadastrarRoupa(List<Roupa> roupas, Loja loja){}
-public void cadastrarCliente(List<Cliente> clientes, Loja loja){}
-public void escreverCadastradosNoArquivo(String nomeArquivo) throws IOException{}
-````
-#### Regras
-
-1. Os métodos acessores e modificadores de todas as classes que não forem utilizados devem ser
-deletados.
-
-#### Aplicação
-
-Será criada a classe AppLoja que executa a aplicação e que tem o seguinte menu:
-
-1. Cadastrar roupa
-2. Cadastrar cliente
-3. Escrever em arquivo de texto os clientes e roupas cadastrados
-4. Encerrar aplicação
-
-
-## Exercicio 14 - Recarga
+## Exercicio 13- Recarga
 Dado que um cliente deseja realizar uma recarga de celular. Implemente uma função que permita que o cliente realize uma recarga em sua linha onde o débito ocorrerá de sua conta.
 
 
