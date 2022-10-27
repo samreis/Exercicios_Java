@@ -13,6 +13,9 @@
 - [Exercicio 11](#exercicio-11)
 - [Exercicio 12](#exercicio-12)
 - [Exercicio 13](#exercicio-13)
+- [Exercicio 14](#exercicio-14)
+
+
 
 ## Exercicio 01 - Cálculo de Salário
 
@@ -401,4 +404,35 @@ Fazer recarga
 Fazer uma ligação - "Cada ligação cobra Dois reais"
 
 Printar nome, numero, saldo em conta, saldo do telefone 
+
+
+## Exercicio 14 - Delta (com teste unitário)
+
+Segundo as boas práticas de TDD (Test Driven Development - Desenvolvimento Dirigido por Testes) toda unidade (classe, modulo, etc) deve ter seu respectivo teste de unidade. De modo simples podemos assumir então que cada classe que representa alguma lógica no sistema deva ter sua respectiva classe de teste.
+
+a) Sendo assim escreva uma classe que modela o cálculo do delta da fórmula de Bhaskara (https://brasilescola.uol.com.br/matematica/formula-bhaskara.htm).
+
+A classe deve ter o nome de Delta e ter 3 atributos reais para armazenar os coeficientes de uma equação de segundo grau.
+
+A classe deve ter um construtor que recebe os 3 coeficientes e não precisa do construtor padrão.
+
+Além dos métodos sets/gets para os atributos a classe deve ter um método (numeroDeRaizes) que retorna o número de raízes (inteiro) de uma equação de segundo grau com os coeficientes adotados. Lembrar que:
+
+se Delta > 0, tem-se duas raízes
+
+se Delta = 0, tem-se apenas uma raiz
+
+se Delta < 0, tem-se zero raiz
+
+Logo a saída esperada para esse método é um dos valores: 0, 1 ou 2.
+
+b) Escreva uma classe de teste para testar a classe Delta com o nome de DeltaTest usando o framework JUnit.
+
+A classe de teste, DeltaTest, deverá ter pelo menos um método de teste para cada condição possível de saída do método numeroDeRaizes da classe Delta.
+
+Observações:
+
+1) Após resolver a questão postar apenas o código fonte das classes Delta e DeltaTest;
+
+2) Todo o código feito será avaliado e considerado, claro que para a nota integral é necessário que o código compile e execute corretamente.
 
