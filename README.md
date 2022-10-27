@@ -1,6 +1,6 @@
 # Lista de Exercício - POO 
 
-- [Exercicio 01](##exercicio-01)
+- [Exercicio 01](#exercicio-01)
 - [Exercicio 02](#exercicio-02)
 - [Exercicio 03](#exercicio-03)
 - [Exercicio 04](#exercicio-04)
@@ -13,7 +13,7 @@
 - [Exercicio 11](#exercicio-11)
 - [Exercicio 12](#exercicio-12)
 - [Exercicio 13](#exercicio-13)
-- [Exercicio 14](##exercicio-14)
+- [Exercicio 14](#exercicio-14)
 
 
 
