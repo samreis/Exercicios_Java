@@ -18,7 +18,9 @@
 
 
 
-## Exercicio 01 - Cálculo de Salário
+## Exercicio 01
+
+Cálculo de Salário
 
 1) Escreva um modelo (classe) Empregado que represente um empregado de uma
 empresa qualquer. Considere que os atributos nome, horasTrabalhadasNoMês e
@@ -53,7 +55,9 @@ Quando o uso do sistema for encerrado pelo usuário, exibir uma mensagem do tipo
 e você irá trabalhar com ele, apenas.
 
 
-## Exercicio 02 - Aplicação Simples 
+## Exercicio 02
+
+Aplicação Simples 
 
 1) Crie uma classe para representar uma pessoa com os atributos: nome, cpf, idade, peso e altura. Faça:
 
@@ -66,7 +70,9 @@ e você irá trabalhar com ele, apenas.
 - Na classe Teste apresente os dados da pessoa mais velha. Utilize estruturas condicionais.
 - Dê um aumento de 5% para o peso das pessoas na faixa etária de 24 a 38 anos que estejam abaixo de 50 kg. Exiba os dados de todas as pessoas que tiveram alteração no peso.
 
-## Exercicio 03 - Conta bancária
+## Exercicio 03
+
+Conta bancária
 
 1) Crie uma classe Conta que irá manipular contas de um banco. Siga a especificação:
 
@@ -125,7 +131,9 @@ Por fim, o saldo da conta não pode ser alterado livremente. É preciso haver um
 
 Você deve fazer um programa que realize o cadastro de uma conta, dando opção para que seja ou não informado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque, sempre mostrando os dados da conta após cada operação. 
 
-## Exercicio 05 - Agenda
+## Exercicio 05
+
+Agenda
 
 1. Crie uma classe Agenda que possa armazenar 10 pessoas e que seja
 capaz de realizar as seguintes operações:
@@ -141,7 +149,9 @@ capaz de realizar as seguintes operações:
 
 ⚠️ (Exercicio realizado utilizando vetores)
 
-## Exercicio 06 - Aluguel de Quartos
+## Exercicio 06
+
+Aluguel de Quartos
 
 1) A dona de um pensionato possui dez quartos para alugar para estudantes,
 sendo esses quartos identificados pelos números 0 a 9.
@@ -157,7 +167,9 @@ conforme exemplo.
 
 ⚠️ (Exercicio realizado utilizando vetores)
 
-## Exercicio 07 - Cervejaria
+## Exercicio 07
+
+Cervejaria
 
 A aplicação proposta terá uma classe Cerveja que tem os seguintes atributos:
 ````java
@@ -237,7 +249,9 @@ Será criada a classe Aplicacao que conterá o seguinte menu:
 5. Exibir dados do serviço de streaming
 6. Encerrar aplicação
 
-## Exercicio 09 - Cervejaria II
+## Exercicio 09
+
+Cervejaria II
 
 A aplicação proposta terá uma classe Cerveja que tem os seguintes atributos:
 ````java
@@ -273,7 +287,9 @@ Será criada a classe Aplicacao que conterá o seguinte menu:
 3. Valor total obtido em reais das cervejas vendidas
 4. Encerrar aplicação
 
-## Exercicio 10 - Herança Veículo
+## Exercicio 10
+
+Herança Veículo
 
 Implemente todo o código necessário para a criação das classes abaixo:
 
@@ -300,7 +316,9 @@ Vamos criar um array de veículos, que armazenará todos os nossos objetos Veíc
 Caminhões e Onibus. E, por fim, vamos criar três laços de repetição para exibirmos
 os dados dos objetos que criamos.
 
-## Exercicio 11 -  Polimorfismo no Zoológico
+## Exercicio 11
+
+Polimorfismo no Zoológico
 
 1- Crie uma hierarquia de classes conforme abaixo com os seguintes atributos e comportamentos (observe a tabela), utilize os seus conhecimentos e distribua as características de forma que tudo o que for comum a todos os animais fique na classe Animal:
 
@@ -313,7 +331,9 @@ os dados dos objetos que criamos.
 4- Crie uma classe Zoologico, com 10 jaulas (utilize um array) coloque em cada jaula um animal diferente, percorra cada jaula e emita o som e, se o tipo de animal possuir o comportamento, faça-o correr.
 
 
-## Exercicio 12 - Posto de Combustível
+## Exercicio 12
+
+Posto de Combustível
 
 A aplicação proposta terá uma classe Combustivel que tem os seguintes atributos:
 ````java
@@ -380,7 +400,9 @@ Será criada a classe AppPosto que conterá o seguinte menu:
 4. Encerrar aplicação
 
 
-## Exercicio 13- Recarga
+## Exercicio 13
+
+Recarga
 Dado que um cliente deseja realizar uma recarga de celular. Implemente uma função que permita que o cliente realize uma recarga em sua linha onde o débito ocorrerá de sua conta.
 
 
